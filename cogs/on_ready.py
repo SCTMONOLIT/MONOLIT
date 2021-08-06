@@ -11,7 +11,7 @@ class BotReady(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         try:
-            user: discord.Member = self.bot.get_user(399851432221868033)
+            user: discord.Member = self.bot.get_user(415129281677492224)
             await user.send(
                 'Бот запустився\n'\
                 f'ID {self.bot.user.id}\n'\
